@@ -1,0 +1,36 @@
+body {
+	background-color: #f9f9f9;
+	color: #021E6D;
+	font-family: "font128363", "Arial", sans-serif;
+	letter-spacing: 1px;
+}
+
+ul {
+	padding: 0;
+	width: 500px;
+	margin: 0 auto;
+}
+
+ul li {
+	list-style: none;
+	border: solid 1px #000;
+	margin-top: 20px;
+	text-align: center;
+	padding: 10px;
+}
+
+.wrapper {
+	text-align: center;
+}
+
+.button {
+	text-decoration: none;
+	color: #fff;
+	padding: 7px 12px;
+	background-color: blue;
+}
+
+.schedule li {
+	text-align: left;
+	padding-left: 30%;
+}
