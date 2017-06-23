@@ -83,3 +83,11 @@ ul li {
 	position: absolute;
 	left: 50px;
 }
+
+.list_tweets {
+	width: 90%;
+}
+
+.list_tweets li {
+	max-width: 100%;
+}
