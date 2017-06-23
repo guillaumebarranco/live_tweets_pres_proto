@@ -22,24 +22,27 @@
 
 		<div class="wrapper">
 
-			<h1>Home</h1>
+			<div><img src="img/edf.png" width="300" alt=""></div>
+			<div><img src="img/ecv.png" width="300" alt=""></div>
 
-			<img src="img/edf.png" width="300" alt="">
+			<div class="separator"></div>
 
-			<h2>X</h2>
+			<h2 style="font-weight: normal; font-size: 1.25em;">23.06.2017</h2>
+			<h2 style="text-transform: uppercase; margin-bottom: 100px;">13h à Paris</h2>
 
-			<img src="img/ecv.svg" width="300" alt="">
-
-			<h2>23/06</h2>
-
-			<a class="button" href="tweets.php">Join</a>
+			<a class="button white" href="tweets.php">Live Tweet</a>
 
 			<div class="schedule">
+
+				<!-- <div class="arrow_bottom"></div> -->
+				<img src="img/arrow_bottom_blue.png" alt="">
+
+				<h2>Schedule</h2>
 				
 				<ul>
-					<li>13:00	intro</li>
-					<li>13:10	COCKPIT</li>
-					<li>13:30	IN BETWEEN SPACE</li>
+					<li>13:00	Intro</li>
+					<li>13:10	IN BETWEEN SPACE</li>
+					<li>13:30	COCKPIT</li>
 					<li>13:50	CONNEXLAB </li>
 					<li>14:10	VIRAGE</li>
 					<li>14:30	SMARTHOME </li>

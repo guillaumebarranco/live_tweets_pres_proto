@@ -2,7 +2,7 @@ let Twit = require('twit');
 
 var config = require('./config.json').twitter;
 
-var hashtag = "#edfcharrette";
+var hashtag = "#edfbyecv";
 
 console.log(config);
 var cors = require('cors');
@@ -21,8 +21,6 @@ app.get('/', function(req, res) {
 	});
 });
 
-app.listen(3333);
-
 function getTweets(callback) {
 
 	var T = new Twit({
@@ -39,7 +37,9 @@ function getTweets(callback) {
 		count: 100
 
 	}, function(err, data, response) {
-		console.log(data);
+		// console.log(data);
 		callback(data);
 	});
 }
+
+app.listen(3333);
