@@ -2,6 +2,7 @@
 
 	$hashtag = "#CCSPACESFAQ";
 	// $baseurl = "http://localhost";
+	// $url = $baseurl."/protoedf";
 	$baseurl = "http://edfecv.webarranco.fr";
 	$url = $baseurl."/";
 
@@ -34,7 +35,7 @@
 		<p style="text-align:center; font-size: 1.25em; margin-bottom: 50px;">Tweet with <strong>#EDFbyECV</strong></p>
 
 		<div>
-			<ul>
+			<ul class="list_tweets">
 				<li>POST</li>
 				<li>POST</li>
 			</ul>
@@ -62,7 +63,7 @@
 
 				for(var i in response.statuses) {
 
-					if(i < 6) {
+					// if(i < 6) {
 
 						var element = response.statuses[i];
 
@@ -92,7 +93,7 @@
 						li += "</li>";
 
 						$('ul').append(li);
-					}
+					// }
 				}
 			}
 
