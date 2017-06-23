@@ -1,8 +1,9 @@
 <?php
 
-	$baseurl = "http://localhost";
-	// $baseurl = "http://92.222.34.194";
-	$url = $baseurl."/protoedf";
+	// $baseurl = "http://localhost";
+	// $url = $baseurl."/protoedf";
+	$baseurl = "http://edfecv.webarranco.fr";
+	$url = $baseurl."/";
 
 ?>
 
