@@ -74,7 +74,7 @@
 						var li = `
 
 							<li class="italic">
-								<img src="${element.user.profile_image_url}" width="50"
+								<div><img src="${element.user.profile_image_url}" width="50"></div>
 								<i>${element.user.name} (${date})</i>
 								<p>${text}</p>
 						`;
